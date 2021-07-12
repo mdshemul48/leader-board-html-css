@@ -37,9 +37,18 @@ header {
 .navigation {
   justify-content: space-between;
   width: 870px;
+  padding: 15px 0;
 }
 .navigation .logo img {
   width: 40px;
+}
+
+.nav-item {
+  list-style: none;
+  margin-left: 36px;
+}
+.nav-link {
+  text-decoration: none;
 }
 
 .navigation .nav-section img {
