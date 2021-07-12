@@ -20,6 +20,11 @@ body {
 /* --------------------------
     navigation bar style
 ----------------------------- */
+header {
+  background-color: var(--primary-color);
+  display: flex;
+  justify-content: center;
+}
 
 .navigation,
 .nav-section,
@@ -30,8 +35,8 @@ body {
 }
 
 .navigation {
-  background-color: var(--primary-color);
   justify-content: space-between;
+  width: 870px;
 }
 .navigation .logo img {
   width: 40px;
