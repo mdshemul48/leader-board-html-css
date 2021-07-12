@@ -10,6 +10,7 @@ body {
 .container {
   background-color: #ffffff;
   width: 870px;
+  padding: 30px;
 }
 main {
   display: flex;
@@ -34,4 +35,7 @@ main {
 .player img {
   width: 56px;
   height: 56px;
+}
+.player-name {
+  margin-left: 16px;
 }
