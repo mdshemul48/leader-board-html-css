@@ -16,3 +16,10 @@ body {
 /* --------------------------
     navigation bar style
 ----------------------------- */
+.navigation {
+  background-color: var(--primary-color);
+  display: flex;
+}
+.navigation .logo img {
+  width: 51px;
+}
