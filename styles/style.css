@@ -180,7 +180,9 @@ header {
 .courses {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: 1fr;
     grid-column-gap: 23px;
+    grid-row-gap: 23px;
 }
 
 .course {
@@ -219,4 +221,58 @@ header {
     background-color: #ffe4e8;
     padding: 5px 8px;
     border-radius: 50px;
+}
+
+
+/* --------------------------
+    media query for other devices 
+----------------------------- */
+
+
+/* for tablet screen  */
+
+@media only screen and (max-width: 993px) {
+    main {
+        margin: 0 10px;
+    }
+    .navigation {
+        width: 100%;
+        margin: 0 10px;
+    }
+    .container {
+        width: 100%;
+    }
+    .players {
+        grid-template-columns: repeat(2, 1fr);
+    }
+    .blogs {
+        grid-template-columns: 1fr;
+    }
+    .courses {
+        grid-template-columns: 1fr;
+    }
+}
+
+
+/* style for mobile phone */
+
+@media only screen and (max-width: 688px) {
+    .container {
+        padding: 10px;
+    }
+    .nav-section {
+        display: none;
+    }
+    .players {
+        grid-template-columns: 1fr;
+    }
+    .player {
+        justify-content: center;
+    }
+    .blog {
+        flex-direction: column;
+    }
+    .blog img {
+        width: 100%;
+    }
 }
