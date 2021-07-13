@@ -235,12 +235,15 @@ header {
     main {
         margin: 0 10px;
     }
+    .container {
+        padding: 10px;
+    }
     .navigation {
-        width: 100%;
+        width: 90%;
         margin: 0 10px;
     }
     .container {
-        width: 100%;
+        width: 90%;
     }
     .players {
         grid-template-columns: repeat(2, 1fr);
@@ -257,9 +260,6 @@ header {
 /* style for mobile phone */
 
 @media only screen and (max-width: 688px) {
-    .container {
-        padding: 10px;
-    }
     .nav-section {
         display: none;
     }
