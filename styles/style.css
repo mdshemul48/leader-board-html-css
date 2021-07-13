@@ -167,3 +167,56 @@ header {
     color: var(--primary-color);
     text-decoration: none;
 }
+
+
+/* --------------------------
+    latest course area
+----------------------------- */
+
+.latest-course {
+    margin-top: 0;
+}
+
+.courses {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-column-gap: 23px;
+}
+
+.course {
+    border-radius: 1em;
+    padding: 12px;
+    box-shadow: 1px 1px 30px rgb(238, 238, 238);
+}
+
+.course-poster img {
+    width: 100%;
+}
+
+.course-author {
+    color: #ed6b4f;
+    font-size: 14.69px;
+    margin: 7px 0 19px 0;
+}
+
+.course-info {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.rating {
+    color: #a2a2a2;
+    font-size: 14.69px;
+}
+
+.filled {
+    color: #ffc014;
+}
+
+.course-time {
+    color: #ed6b4f;
+    background-color: #ffe4e8;
+    padding: 5px 8px;
+    border-radius: 50px;
+}
