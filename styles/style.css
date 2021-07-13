@@ -20,6 +20,7 @@
 * {
     margin: 0;
     font-family: "Poppins", sans-serif;
+    font-weight: 500;
 }
 
 body {
@@ -46,7 +47,11 @@ section {
 .section-title {
     color: var(--primary-color);
     font-size: 24px;
-    margin-bottom: 40px;
+    margin-bottom: 30px;
+}
+
+hr {
+    border: 1px solid #d1d1d1;
 }
 
 
@@ -125,4 +130,40 @@ header {
 
 .player img {
     width: 56px;
+}
+
+
+/* --------------------------
+    top blog area
+----------------------------- */
+
+.top-blogs {
+    margin-top: 30px;
+}
+
+.blogs {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-row-gap: 26px;
+}
+
+.blog {
+    display: flex;
+}
+
+.blog img {
+    width: 177px;
+}
+
+.blog-info {
+    margin-left: 16px;
+}
+
+.author-name {
+    margin-top: 6px;
+}
+
+.author-name a {
+    color: var(--primary-color);
+    text-decoration: none;
 }
