@@ -38,6 +38,11 @@ main {
     padding: 30px;
 }
 
+.section-title {
+    color: var(--primary-color);
+    font-size: 24px;
+}
+
 
 /* --------------------------
     navigation bar style
